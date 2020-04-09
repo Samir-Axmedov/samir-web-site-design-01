@@ -1,0 +1,266 @@
+﻿body {
+    background-color: darkgrey;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 0;
+    margin-bottom: 20px;
+    position: sticky;
+    z-index:1;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    /*overflow: hidden;*/
+}
+
+.topping {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    .topping p {
+        /*position: absolute;*/
+        /*display: inline;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        padding: 0px 5px 0px 10px;
+        font: bold 24px arial;*/
+    }
+
+    .topping strong {
+        /*display: inline;*/
+        /*position: absolute;*/
+        /*left: 0px;*/
+        /*z-index: -1;*/
+        /*padding: 0px 5px 0px 10px;
+        font: bold 15px arial;*/
+    }
+
+.logo {
+    
+    position: absolute;
+    /*border: 1px solid red;*/
+    display: flex;
+    width: 270px;
+    height: 35px;
+    padding: 0 0 5px 5px;
+}
+
+
+
+
+.TopList ul {
+    /*overflow: hidden;*/
+    /*border: 1px solid red;*/
+    
+    top: 0px;
+    text-transform: uppercase;
+    font: bold 16px arial;
+    text-align: right;
+    padding-right: 10px;
+    list-style: none;
+    /*word-spacing: 7px;*/
+    letter-spacing: 2px;
+}
+
+    .TopList ul li {
+        line-height: 35px;
+        display: inline;
+        padding-right: 20px;
+        /*word-spacing: 4px;*/
+    }
+
+
+        .TopList ul li a {
+            word-spacing: 1px;
+            color: white;
+            text-decoration: none;
+        }
+
+/*.topping {
+    overflow: hidden;
+}*/
+
+.TopList li:hover {
+
+
+    color: #FFF;
+    background-color: #ee5010;
+    padding:25px 15px 27.2px 15px;
+    /*position:center;*/
+}
+
+.TopList ul li:active a {
+    color: #FFF;
+    background: #ee5010;
+}
+
+.TopList ul li:active {
+    color: #FFF;
+    background: #ee5010;
+}
+
+
+section {
+    margin-top: 10px;
+    max-width:100%;
+}
+
+nav {
+    float: left;
+    border: 1px solid #D6D6D6;
+    width: 21.2%;
+    height: 70%;
+    /*padding: 0px 5px;*/
+    text-align: justify;
+    /*margin: 5px;*/
+
+}
+
+.NavList {
+    background-color: white;
+    /*border: 1px solid red;*/
+    padding:0;
+}
+
+
+
+
+
+
+.NavList2 {
+    background-color: white;
+}
+.news {
+    background-color: white;
+}
+
+
+.NavListLeft ul li {
+    list-style: none;
+    
+}
+
+.NavListLeft ul li a {
+    background: url(../img/ox.png) no-repeat 1px 8px;
+    display: block;
+    color: #969494;
+    font-size: 16px;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 8px 0 8px 25px;
+    text-decoration: none;
+}
+
+.NavListLeft li a:hover {
+
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px solid #D6D6D6;
+    padding: 8px 0 8px 25px;
+}
+
+.news{
+    width:100%;
+    height:70%;
+    right:0;
+    line-height:140%;
+    
+
+}
+
+
+
+
+.ServicesHeard {
+    /*height:100%;*/
+    top: 0;
+    color: #FFF;
+    background: #ee5010;
+    text-align: center;
+    padding:1px;
+   /*vertical-align:middle;*/
+}
+
+.NavList2 {
+    vertical-align: central;
+    width: 100%;
+    height: 70%;
+    border: 1px double red;
+}
+
+.NavListLeft2 {
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+article {
+    /*margin-top:5px;*/
+    /*margin-left: 10px;*/
+    margin:0 10px 0 10px;
+    float: left;
+    width: 55%;
+    border: 1px solid black;
+    background-color: red;
+
+}
+
+
+.contact {
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px;
+}
+.contact h1 {
+text-align:left;
+
+
+}
+.NewsCont {
+    display: block;
+    padding: 0 10px 0 10px;
+}
+
+.contact div {
+    /*width: 100%;
+        border: 1px solid black;
+        background-color: white;*/
+}
+
+    .contact input[type="text"], .contact textarea, .contact input[type="email"] {
+        padding: 8px;
+        /*display: block;*/
+        width: 95%;
+        background: none;
+        border: 1px solid #DDDCDC;
+        /*outline: none;*/
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.contact input[type="button"] {
+    
+    text-align: right;
+    color: #FFF;
+    background-color: #ee5010;
+   width:70px;
+   height:25px;
+   
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+    section:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
